@@ -71,3 +71,23 @@ ul.nav li.current{
   margin-bottom:30px;
   line-height:150%;
 }
+/*LEFT NOTATION*/
+.left_notation{
+  position:relative;
+  overflow:hidden;
+  zoom:1;
+}
+.left_notation .items{
+  position:absolute;
+  top:0; left:0;
+}
+.left_notation .items p{
+  margin:0;
+}
+.left_notation .items h6{
+  font-weight:normal;
+  text-transform:uppercase;
+  text-align:left;
+  font-size:9pt;
+  margin-bottom:10px;
+}
