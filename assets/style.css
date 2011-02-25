@@ -4,6 +4,16 @@
 .left_column .block{
   padding:0 30px;
 }
+.column .block{
+  position:relative;  
+}
+.center_column .block{
+  padding-right:30px;
+  position:relative;
+}
+.right_column{
+  width: 240px;
+}
 ul.nav li a{
   color:#b3252d;
   line-height:120%;
