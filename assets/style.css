@@ -1,0 +1,9 @@
+ul.nav li a{
+  color:#b3252d;
+}
+ul.nav li{
+  margin-bottom:20px;
+}
+ul.nav li.current{
+  background: transparent url('../images/menu-current-bg.gif') no-repeat 0 0;
+}

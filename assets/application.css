@@ -1,3 +1,4 @@
+/*
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -60,78 +61,58 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body, html
-{
-    behavior: url(csshover.txt);
-	height: 100%;
-	width: 100%;
-	font-family: Arial, sans-serif;
-	font-size: 10pt;
-	color: #333333;
-	line-height: 130%;
-    background: #625754;
+*/
+body, html{
+  behavior: url(csshover.txt);
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+  color: #333333;
+  line-height: 130%;
+  background: #625754;
 }
-
-img
-{
-    behavior: url(iepngfix.txt);
+img{
+  behavior: url(iepngfix.txt);
 }
-
-a
-{
+a{
 	color: #3f5fac;
 	text-decoration: underline;
 }
-
-a.named
-{
-    color: inherit;
-    text-decoration: none;
+a.named{
+  color: inherit;
+  text-decoration: none;
 }
-
-a:hover
-{
+a:hover{
 	text-decoration: none;
 }
-
-p, ul
-{
-	line-height: 130%;
-    margin-bottom: 10px;
+p, ul{
+  line-height: 130%;
+  margin-bottom: 10px;
 }
-
-.main_content
-{
-    position: relative;
+.main_content{
+  position: relative;
 }
-
-.main_content ul li
-{
-    list-style: none;
-    padding-left: 17px;
-    margin-bottom: 5px;
-    E: expression(!this.isInserted == true ? this.isInserted = (this.innerHTML = '<span class="before">—</span>' + this.innerHTML) : '');
+.main_content ul li{
+  list-style: none;
+  padding-left: 17px;
+  margin-bottom: 5px;
+  E: expression(!this.isInserted == true ? this.isInserted = (this.innerHTML = '<span class="before">—</span>' + this.innerHTML) : '');
 }
-
-.main_content ol li
-{
-    list-style: decimal inside;
-    margin-bottom: 5px;
+.main_content ol li{
+  list-style: decimal inside;
+  margin-bottom: 5px;
 }
-
-.main_content ul li:before, .main_content ul li .before
-{
-    content: '—';
-    display: inline-block;
-    width: 17px;
-    margin-left: -17px;
-    *display: inline;
-    zoom: 1;
+.main_content ul li:before, .main_content ul li .before{
+  content: '—';
+  display: inline-block;
+  width: 17px;
+  margin-left: -17px;
+  *display: inline;
+  zoom: 1;
 }
-
-.main_content img
-{
-    margin-top: 25px;
+.main_content img{
+  margin-top: 25px;
 }
 
 .backgrounded
