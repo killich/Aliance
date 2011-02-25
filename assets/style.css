@@ -56,9 +56,32 @@ ul.nav li.current{
   text-align:center;
   font-size:9pt;
 }
+/*WIDE NOTATION*/
+.wide_notation{
+  margin:auto;
+  margin-bottom:20px;
+  overflow:hidden;
+  zoom:1;
+  width:700px;
+}
+.wide_notation h6{
+  font-weight:normal;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:9pt;
+  margin-bottom:10px;
+}
+.wide_notation .items{
+  width:30%;
+  float:left;
+  margin-right:10px;
+}
+.wide_notation .items p{
+  margin-bottom:5px;
+}
 /*FEATURES*/
 .features{
-  margin-bottom:120px;
+  margin-bottom:70px;
 }
 .features h3{
   color:#989898;
