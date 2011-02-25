@@ -1,3 +1,13 @@
+h6{
+  font-weight:normal;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:9pt;
+}
+.img_block{
+  text-align:center;
+  margin-bottom:30px;
+}
 .left_column{
   width:270px;
 }
@@ -14,6 +24,9 @@
 .right_column{
   width: 240px;
 }
+.right_column .block{
+  padding-right:30px;
+}
 ul.nav li a{
   color:#b3252d;
   line-height:120%;
@@ -24,4 +37,22 @@ ul.nav li{
 }
 ul.nav li.current{
   background: transparent url('../images/menu-current-bg.gif') repeat-y 0 0;
+}
+/*NOTATION*/
+.notation, .notation .block{
+  margin-bottom:20px;
+  overflow:hidden;
+  zoom:1;
+}
+.notation .block{
+  margin:0 auto;
+  margin-top:20px;
+  width:470px;
+}
+.notation ol{
+  width:230px;
+  float: left;
+  list-style: decimal inside none;
+  margin-left: 30px;
+  width: 40%;
 }
