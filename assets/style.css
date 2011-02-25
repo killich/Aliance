@@ -1,9 +1,3 @@
-h6{
-  font-weight:normal;
-  text-transform:uppercase;
-  text-align:center;
-  font-size:9pt;
-}
 .img_block{
   text-align:center;
   margin-bottom:30px;
@@ -55,4 +49,25 @@ ul.nav li.current{
   list-style: decimal inside none;
   margin-left: 30px;
   width: 40%;
+}
+.notation h6{
+  font-weight:normal;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:9pt;
+}
+/*FEATURES*/
+.features{
+  margin-bottom:120px;
+}
+.features h3{
+  color:#989898;
+  margin:0;
+  font-weight:normal;
+  font-size:8pt;
+}
+.features p{
+  color:black;
+  margin-bottom:30px;
+  line-height:150%;
 }
