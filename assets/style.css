@@ -1,9 +1,11 @@
 ul.nav li a{
   color:#b3252d;
+  line-height:120%;
 }
 ul.nav li{
   margin-bottom:20px;
+  padding:10px 30px;
 }
 ul.nav li.current{
-  background: transparent url('../images/menu-current-bg.gif') no-repeat 0 0;
+  background: transparent url('../images/menu-current-bg.gif') repeat-y 0 0;
 }
