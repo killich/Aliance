@@ -242,42 +242,40 @@ h5
     line-height: 22px;
 }
 
-.header .search .search_button
-{
-    position: absolute;
-    top: 18px;
-    left: 171px;
+.header .search .search_button{
+  position: absolute;
+  top: 18px;
+  left: 171px;
 }
-
 .header_pic
 {
-    position: relative;
-    height: 137px;
-    margin-right: 85px;
-    background: #404143 url(../uploads/header_p.jpg) right no-repeat;
+position: relative;
+height: 137px;
+margin-right: 85px;
+background: #404143 url(../uploads/header_p.jpg) right no-repeat;
 }
 
 .backgrounded .header_pic
 {
-    height: 0;
-    background: none;
+height: 0;
+background: none;
 }
 
-.logo
-{
-    position: absolute;
-	width: 306px;
-	height: 54px;
-	top: 32px;
-	left: 32px;
-	background: url(../uploads/logo0000.png) no-repeat;
+.logo{
+  position: absolute;
+  width: 306px;
+  height: 54px;
+  top: 32px;
+  left: 32px;
+  background: url(../uploads/logo0000.png) no-repeat;
 }
 
-.logo a
-{
-      display: block;
-      width: 306px;
-      height: 54px;
+.logo a{
+  display: block;
+  width: 306px;
+  height: 54px;
+  text-decoration:none;
+  font-size:0;
 }
 
 ul.navigation
