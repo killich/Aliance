@@ -1,3 +1,9 @@
+.left_column{
+  width:270px;
+}
+.left_column .block{
+  padding:0 30px;
+}
 ul.nav li a{
   color:#b3252d;
   line-height:120%;
