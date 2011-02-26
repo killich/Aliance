@@ -145,3 +145,10 @@ ul.nav li.current{
 .equipment_category .item .preview{
   float:left;
 }
+/*WIDE BLOCK*/
+.content .wide_block{
+  border:1px solid red;
+  padding:0 30px;
+}
+/*ACTIVITY*/
+ul.activity{}
