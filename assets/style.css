@@ -145,10 +145,35 @@ ul.nav li.current{
 .equipment_category .item .preview{
   float:left;
 }
-/*WIDE BLOCK*/
-.content .wide_block{
-  border:1px solid red;
-  padding:0 30px;
+/*GRAY BOTTOM BORDER*/
+.gray_bottom_border{
+  border-bottom: 2px solid #e6e4e4;
+  padding:0 0 20px 0;
+  margin:0 30px 20px 30px;
 }
 /*ACTIVITY*/
-ul.activity{}
+ul.activity li{
+  padding:20px;
+  background:#FFF url("../images/activity-li-bottom-border.gif") repeat-x scroll 0 bottom;
+}
+ul.activity li a{
+  color:#ab2d27;
+  font-size:12pt;
+  display:block;
+  background:#FFF url('../images/activity_bullet.jpg') no-repeat;
+  padding:0 0 0 100px;
+}
+/*NEWS LIST*/
+ul.news_list{
+  background:#f7f6e3;
+}
+ul.news_list li{
+  padding:10px;
+}
+ul.news_list li p.preview{
+  float:right;
+}
+/*WORK STAGES*/
+.work_stages{
+  margin:0 30px;
+}
