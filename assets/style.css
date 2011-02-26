@@ -114,3 +114,34 @@ ul.nav li.current{
   font-size:9pt;
   margin-bottom:10px;
 }
+/*EQUIPMENT CATEGORY*/
+.equipment_category .item{
+  overflow:hidden;
+  zoom:1;
+}
+.equipment_category .item .features{
+  margin-left:175px;
+}
+.equipment_category  h3.title{
+  color:black;
+  text-align:left;
+  background:#FFF url('../images/equipment-title-bg.jpg') no-repeat scroll left 0;
+  line-height:27px;
+  margin-left:25%;
+  padding-left:50px;
+}
+.equipment_category .item  .features{
+  margin-bottom:30px;
+}
+.equipment_category .item  .features a.to_item{
+  color: #676767;
+  display: block;
+  font-size: 11pt;
+  margin: 0 0 10px;
+}
+.equipment_category .item .features p{
+  margin-bottom:10px;
+}
+.equipment_category .item .preview{
+  float:left;
+}
